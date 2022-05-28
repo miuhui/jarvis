@@ -14,7 +14,5 @@ public class MapperTest {
 
   @Test
   void testUserQuery() {
-    Optional<UserDO> userDO = userMapper.getById(1);
-    System.out.println(userDO);
   }
 }

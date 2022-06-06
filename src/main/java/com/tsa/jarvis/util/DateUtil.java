@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * 日期工具类
  *
- * @author : jinfan
+ * @author : miaohui
  */
 public class DateUtil {
 

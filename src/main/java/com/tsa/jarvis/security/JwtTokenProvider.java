@@ -10,11 +10,13 @@ import java.util.Date;
 import javax.crypto.spec.SecretKeySpec;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 /**
- * @author : hui.miao
+ * @author miaohui
  */
 @Slf4j
+@Component
 public class JwtTokenProvider {
 
   @Value("${app.jwtSecret}")
